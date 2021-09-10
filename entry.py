@@ -11,7 +11,7 @@ e.insert(0, "Enter your name")
 def myClick():
 
     myLabel = Label(root, text= e.get(), fg='red', bg='black')
-control
+# control
 
 # myButton1 = Button(root, text='Click me', state=DISABLED) 
 # use state=DISABLED to keep the button inactive
