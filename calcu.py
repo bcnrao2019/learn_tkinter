@@ -1,6 +1,7 @@
 # https://www.youtube.com/watch?v=YXPyB4XeYLA it starts are 38.555
 
 from  tkinter import *
+from typing import overload
 
 root = Tk()
 root.title("Simple Calculator")
@@ -100,7 +101,7 @@ button_9.grid(row=1, column=2)
 
 button_0.grid(row=4, column=0, rowspan=2)
 
-button_eq.grid(row=5, column=1, columnspan=3)
+button_eq.grid(row=5, column=1, columnspan=2)
 button_cl.grid(row=4, column=1, columnspan=2)
 
 
