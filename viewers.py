@@ -60,6 +60,7 @@ def back(image_number):
     button_back.grid(row=1,column=0)
     button_for.grid(row=1, column=2)
 
+
 button_back = Button(root, text="<<", command=back, state=DISABLED)
 button_exit = Button(root, text='Exit', command=root.quit)
 button_for = Button(root, text=">>", command=lambda:forward(2))
@@ -72,3 +73,4 @@ button_for.grid(row=1, column=2)
 # /home/bcnrao/Downloads
 root.mainloop()
 
+# it ends at 1:49:37 
